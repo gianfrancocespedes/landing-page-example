@@ -6,7 +6,7 @@
 }
 
 .row {
-    margin: 15% 0;
+    margin: 0 0;
 }
 
 .marketing .col-lg-4 {
@@ -44,3 +44,34 @@
     background-color: #2087C5;
 }
 
+.logo_main {
+    justify-content: left;
+    margin: 1em 5em;
+}
+
+.btn_contactar {
+    justify-content: right;
+    margin-left: 15vw;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    width: 153px;
+    height: 52px;
+
+    background: #2087C5;
+    border-color: transparent;
+    border-radius: 100px;
+}
+
+.logo_footer {
+    margin: 2em;
+}
+
+.footer_left {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_right .col-lg-1 {
+    margin: 1em 0;
+}
