@@ -1,8 +1,10 @@
 .marketing {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(../img/Background_Opacidad_15.png);
     background-repeat: repeat;
+    display: flex;
+    align-items: center;
 }
 
 .row {
@@ -26,6 +28,10 @@
     margin: 4em 4em;
 }
 
+.marketing .row {
+    width: 100%;
+}
+
 .cita {
     width: 100%;
     height: 70vh;
@@ -37,6 +43,12 @@
     background-color: white;
     margin: 0 10em;
     padding: 4em;
+}
+
+.cuadro_servicios {
+    background-color: white;
+    margin: 0em 10em;
+    padding: 1em;
 }
 
 .footer {
@@ -74,4 +86,37 @@
 
 .footer_right .col-lg-1 {
     margin: 1em 0;
+}
+
+.images .row .col-lg-4 {
+    padding: 0;
+}
+
+.p_nuestros {
+    color: black;
+    font-weight: 400;
+    font-size: 36px;
+    text-align:center;
+}
+
+.p_servicios {
+    color: #2087C5;
+    padding-left: 0.25em;
+}
+
+.btn_enviar {
+    color: #2087C5;
+    width: 120px;
+    height: 52px;
+
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 100px;
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.mensaje {
+    height: 8em;
 }
